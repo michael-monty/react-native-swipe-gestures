@@ -76,6 +76,7 @@ class GestureRecognizer extends Component {
       (detectSwipeLeft && swipeDirection === SWIPE_LEFT) ||
       (detectSwipeRight && swipeDirection === SWIPE_RIGHT)
     );
+    }
 
   _gestureIsClick(gestureState) {
     return (
